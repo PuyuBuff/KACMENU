@@ -33,7 +33,7 @@ end
 
 
 function Basic()
-w = gg.makeRequest('https://raw.githubusercontent.com/PuyuBuff/KACMENU/main/Basic.lua').content if w then pcall(load(w)) end
+t = gg.makeRequest('https://raw.githubusercontent.com/PuyuBuff/KACMENU/main/Basic.lua').content if t then pcall(load(t)) end
 end
 
 
