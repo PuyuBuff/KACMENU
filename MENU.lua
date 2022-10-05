@@ -10,7 +10,6 @@ So = gg.choice({
 if So == nil then else
 if So == 1 then mini() end --โอกาสโดนแบนน้อย
 if So == 2 then MENU1() end --ทั้งหมด
-if So == 3 then admin() end --ADMIN
 if So == 4 then osexit() end
 end
 NUX=-1
@@ -181,11 +180,7 @@ t = gg.choice({
 "⪼ 3.ปลดล็อคคำหยาบ ⪻",
 "⪼ 4.เควส ⪻",
 "⪼ 5.พื้นฐาน ⪻",
-"⪼ 6.เรด ⪻",
-"⪼ 7.โปรปั่น ⪻",
-"⪼ 8.วาป ⪻",
-"⪼ 9.แฮ็คM ⪻",
-"⪼ 10.บัพ ⪻",
+"⪼ 6.วาป ⪻",
 "⪼ กลับ ⪻",
 },nil,"VIP Full Online")
 if t == nil then else
@@ -194,10 +189,8 @@ if t==2 then Loop() end --วนบอส
 if t==3 then C() end --ปลดล็อคคำหยาบ
 if t==4 then Qas() end --เควส
 if t==5 then Basic() end --พื้นฐาน
-if t==6 then Red() end --เรด
-if t==7 then panpan() end --โปรปั่น
-if t==8 then warp() end --วาป
-if t==9 then  main() end --ออก
+if t==6 then warp() end --วาป
+if t==7 then  main() end --ออก
 end
 NUX=-1
 end
