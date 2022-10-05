@@ -1,4 +1,4 @@
-function Basic() --พื้นฐาน
+function Basic1() --พื้นฐาน
 a = gg.multiChoice({
         "ตีไว",
         "ดีเล",
@@ -194,7 +194,7 @@ while true do
     KAC=1
     gg.setVisible(false)
     end
-    if KAC==1 then Basic()
+    if KAC==1 then Basic1()
     KAC=-1
 end
 end
