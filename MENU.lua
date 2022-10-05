@@ -54,7 +54,7 @@ io.open("/storage/emulated/0/Android/data/com.asobimo.iruna_thai/ngword.zip","w"
 end
 
 
-function Basic1() --พื้นฐาน
+function Basic() --พื้นฐาน
 a = gg.multiChoice({
         "ตีไว",
         "ดีเล",
