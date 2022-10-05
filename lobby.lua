@@ -23,6 +23,10 @@ function mini()
   t = gg.makeRequest('https://pastebin.com/raw/#').content if t then pcall(load(t)) end
 end
 
+function osexit()
+     os.exit()
+end
+
 while true do
 if gg.isVisible(true) then
 KAC=1
