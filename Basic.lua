@@ -20,6 +20,12 @@ end
 KAC=-1
 end
 
+function Basic()
+t = gg.makeRequest('https://raw.githubusercontent.com/PuyuBuff/KACMENU/main/MENU.lua').content if t then pcall(load(t)) end
+end
+
+
+
 function Col1()
 Nani = gg.choice({
         "ใช้แล้ว",
