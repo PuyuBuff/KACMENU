@@ -7,10 +7,14 @@ So = gg.choice({
 	if So == nil then else
 	if So == 1 then mini() end --โอกาสโดนแบนน้อย
 	if So == 2 then MENU1() end --ทั้งหมด
-	if So == 3 then osexit() end
+	if So == 3 then os.exit() end
 end
 KAC=-1
 end
+
+function osexit()
+	os.exit()
+end		
 
 function MENU1() --ทั้งหมด
 t = gg.choice({
@@ -50,7 +54,7 @@ io.open("/storage/emulated/0/Android/data/com.asobimo.iruna_thai/ngword.zip","w"
 end
 
 
-function Basic() --พื้นฐาน
+function Basic1() --พื้นฐาน
 a = gg.multiChoice({
         "ตีไว",
         "ดีเล",
@@ -236,7 +240,6 @@ function DLL()
     gg.addListItems(s)
 end
     
-
 function osexit()
 print(os.date([[
 
@@ -268,7 +271,6 @@ if KAC==1 then main()
 KAC=-1
 end
 end
-
 
 
 
