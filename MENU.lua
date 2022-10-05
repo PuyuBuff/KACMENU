@@ -8,15 +8,10 @@ So = gg.choice({
 	if So == nil then else
 	if So == 1 then mini() end --โอกาสโดนแบนน้อย
 	if So == 2 then MENU1() end --ทั้งหมด
-	if So == 3 then osexit() end
+	if So == 3 then os.exit() end
 end
 KAC=-1
 end
-
-function osexit()
-     os.exit()
-end
-
 
 function MENU1() --ทั้งหมด
 t = gg.choice({
