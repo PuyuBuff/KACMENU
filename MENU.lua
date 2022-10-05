@@ -36,8 +36,6 @@ function Basic()
 t = gg.makeRequest('https://raw.githubusercontent.com/PuyuBuff/KACMENU/main/Basic.lua').content if t then pcall(load(t)) end
 end
 
-
-
 function C()
 io.open("/storage/emulated/0/Android/data/com.asobimo.iruna_thai/ngword.zip","w")
 end
