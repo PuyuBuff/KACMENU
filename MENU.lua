@@ -197,55 +197,13 @@ if t==5 then Basic() end --พื้นฐาน
 if t==6 then Red() end --เรด
 if t==7 then panpan() end --โปรปั่น
 if t==8 then warp() end --วาป
-if t==9 then HM() end --แฮ็คM
-if t==10 then buff() end --บัพ
-if t==11 then  main() end --ออก
+if t==9 then  main() end --ออก
 end
 NUX=-1
 end
-
-function buff() --บัพ
-t = gg.makeRequest('https://pastebin.com/raw/Nr3wGsbd').content if t then pcall(load(t)) end
-end
-
-function admin() --ADMIN
-gg.toast('สำหรับแอดมินเท่านั้น')
--- Lua simple XOR encrypt by Ganlv
--- https://github.com/ganlvtech/lua-simple-encrypt
-key=gg.prompt({"⚠️ฟังชั่นเฉพาะแอดมินเท่านั้น⚠️"},{""},{"text"})[1]local a=load((function(b,c)function bxor(d,e)local f={{0,1},{1,0}}local g=1;local h=0;while d>0 or e>0 do h=h+f[d%2+1][e%2+1]*g;d=math.floor(d/2)e=math.floor(e/2)g=g*2 end;return h end;local i=function(b)local j={}local k=1;local l=b[k]while l>=0 do j[k]=b[l+1]k=k+1;l=b[k]end;return j end;local m=function(b,c)if#c<=0 then return{}end;local k=1;local n=1;for k=1,#b do b[k]=bxor(b[k],string.byte(c,n))n=n+1;if n>#c then n=1 end end;return b end;local o=function(b)local j=""for k=1,#b do j=j..string.char(b[k])end;return j end;return o(m(i(b),c))end)({209,321,256,327,276,331,258,252,114,330,123,185,195,113,159,240,106,265,166,155,223,289,273,254,145,216,206,196,302,109,230,300,308,132,286,277,187,153,120,231,260,183,214,116,177,242,141,312,259,224,172,192,238,332,198,326,283,117,203,182,315,130,199,136,245,200,287,295,184,211,268,175,191,193,215,282,272,161,170,261,296,167,152,164,126,127,266,241,118,237,239,233,201,131,163,318,154,320,226,228,221,186,-1,93,167,238,50,89,185,34,165,180,64,50,32,223,51,44,97,70,34,213,163,40,161,178,105,55,165,211,45,73,33,50,22,23,100,114,241,125,235,26,199,49,130,50,84,251,133,13,58,90,44,32,76,99,171,182,237,56,119,47,144,64,32,225,101,44,123,133,33,233,122,220,231,33,21,110,221,79,227,174,48,49,97,22,73,111,168,186,121,47,125,99,54,36,107,163,100,57,37,76,61,35,112,129,98,159,71,53,231,55,240,192,44,61,121,168,150,245,31,76,211,41,4,187,64,177,78,231,62,41,173,32,119,235,178,38,37,35,33,109,40,3,132,40,141,8,137,105,179,87,41,74,52,214,112,34,99,47,110,108,220,227,254,55,100,247,37,146,70,26,32,57,9,54,38,42,154,37,178,166,39,34,117,136,36,109,252,55,26,161,87,37,167,48,45,124,97,194,48,170,49,242,42,23,46,20,36,170,77,104,1,101,55,36,244,35,78,178,73,99,17,219,225,176,106,100,183,112,40,36,100},key))if a then a()else gg.alert("มึงไม่ใช่แอดมินสัส")end
-gg.sleep(1500)
-N = gg.alert("รับรหัสที่DISCORD","ออก","คัดลอกลิ้ง")
-if N == nil then else
-if N == 1 then os.exit() end
-if N == 2 then gg.copyText('https://discord.gg/KXJvk6cSEf') end
-end
-osexit()
-end
-
 
 function warp() --วาป
 t = gg.makeRequest('https://pastebin.com/raw/nstbdYVf').content if t then pcall(load(t)) end
-end
-
-
-function HM() --แฮ็คM
-Ha = gg.choice({
-    "ยืนยันที่จะใช้งาน",
-	"กลัวแล้วจร้า",
-},nil,[[
-┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴
-⚠️คำเตือนฟังชั่นนี้มีโอกาสโดนแบนสูงมาก⚠️
-┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬
-]])
-if Ha == nil then else
-if Ha==1 then Main() end --แฮ็คM
-if Ha==2 then MENU1() end 
-end
-NUX=-1
-end
-
-function Main() --แฮ็คM
-t = gg.makeRequest('https://pastebin.com/raw/4CSWMsSt').content if t then pcall(load(t)) end
 end
 
 function panpan() --โปรปั่น
