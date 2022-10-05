@@ -1,6 +1,4 @@
-gg.alert(os.date([[
-เวลาเปิดสคริปต์
-%c]]))
+
 function main()
 So = gg.choice({
    "โอกาสโดนแบนน้อย",
