@@ -194,7 +194,7 @@ while true do
     KAC=1
     gg.setVisible(false)
     end
-    if KAC==1 then main()
+    if KAC==1 then Basic()
     KAC=-1
 end
 end
