@@ -53,8 +53,9 @@ end
 
 
 function Basic()
-	t = gg.makeRequest('https://pastebin.com/raw/#').content if t then pcall(load(t)) end
+t = gg.makeRequest('https://raw.githubusercontent.com/PuyuBuff/KACMENU/main/Basic.lua').content if t then pcall(load(t)) end
 end
+
 
 
 function C()
