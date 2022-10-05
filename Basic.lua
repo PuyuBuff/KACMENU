@@ -15,7 +15,7 @@ a = gg.multiChoice({
     if a[4] then HN() end --ซ่อนชื่อ
     if a[5] then Run() end --วิ่งเร็ว
     if a[6] then G() end --เดินทะลุ
-    if a[7] then MENU1() end
+    if a[7] then Basic() end
 end
 KAC=-1
 end
