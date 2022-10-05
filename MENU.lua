@@ -1,8 +1,4 @@
 
-function mini()
-  t = gg.makeRequest('https://pastebin.com/raw/#').content if t then pcall(load(t)) end
-end
-
 function MENU1() --ทั้งหมด
 t = gg.choice({
 "⪼ 1.นาวาสายลม ⪻",
