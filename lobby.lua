@@ -15,6 +15,14 @@ end
 KAC=-1
 end
 
+function MENU1()
+t = gg.makeRequest('https://raw.githubusercontent.com/PuyuBuff/KACMENU/main/MENU.lua').content if t then pcall(load(t)) end
+end
+
+function mini()
+  t = gg.makeRequest('https://pastebin.com/raw/#').content if t then pcall(load(t)) end
+end
+
 while true do
 if gg.isVisible(true) then
 KAC=1
