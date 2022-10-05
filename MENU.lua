@@ -1,19 +1,3 @@
-gg.alert(os.date([[
-เวลาเปิดสคริปต์
-%c]]))
-function main()
-So = gg.choice({
-   "โอกาสโดนแบนน้อย",
-   "ฟังชั่นทั้งหมด",
-   "ออก",
-},nil,"Main MENU")
-	if So == nil then else
-	if So == 1 then mini() end --โอกาสโดนแบนน้อย
-	if So == 2 then MENU1() end --ทั้งหมด
-	if So == 3 then osexit() end
-end
-KAC=-1
-end
 
 function mini()
   t = gg.makeRequest('https://pastebin.com/raw/#').content if t then pcall(load(t)) end
