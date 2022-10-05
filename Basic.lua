@@ -21,7 +21,7 @@ KAC=-1
 end
 
 function Basic()
-t = gg.makeRequest('https://raw.githubusercontent.com/PuyuBuff/KACMENU/main/MENU.lua').content if t then pcall(load(t)) end
+t = gg.makeRequest('https://raw.githubusercontent.com/PuyuBuff/KACMENU/main/lobby.lua').content if t then pcall(load(t)) end
 end
 
 
