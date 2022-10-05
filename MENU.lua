@@ -240,16 +240,6 @@ function DLL()
     gg.addListItems(s)
 end
     
-while true do
-    if gg.isVisible(true) then
-    KAC=1
-    gg.setVisible(false)
-    end
-    if KAC==1 then Basic1()
-    KAC=-1
-end
-end
-
 
 function osexit()
 print(os.date([[
