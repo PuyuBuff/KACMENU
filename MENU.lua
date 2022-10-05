@@ -5,7 +5,6 @@ function main()
 So = gg.choice({
    "โอกาสโดนแบนน้อย",
    "ฟังชั่นทั้งหมด",
-   "ADMIN",
    "ออก",
 },nil,"Main MENU")
 if So == nil then else
