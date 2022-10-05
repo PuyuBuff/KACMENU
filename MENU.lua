@@ -71,7 +71,7 @@ if gg.isVisible(true) then
 KAC=1
 gg.setVisible(false)
 end
-if KAC==1 then main()
+if KAC==1 then MENU1()
 KAC=-1
 end
 end
