@@ -2,7 +2,7 @@ KILL=1
  
 --ของmahiro
 if User=="M" then
-if os.date("%Y%m%d") > "20221525" then
+if os.date("%Y%m%d") > "20221025" then
 gg.alert("หมดอายุแล้วจ้า")
 os.exit()
 end
