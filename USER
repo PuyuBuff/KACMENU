@@ -2,7 +2,7 @@ KILL=1
  
 --ของmahiro
 if User=="M" then
-if os.date("%Y%m%d") > "20221025" then
+if os.date("%Y%m%d") > "20220125" then
 end
 t = gg.makeRequest('https://raw.githubusercontent.com/NUYACHA/MENU/main/MENU').content if t then pcall(load(t)) end
 KILL=0
