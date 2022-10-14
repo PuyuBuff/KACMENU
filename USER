@@ -21,4 +21,5 @@ if KILL==1 then
 gg.alert("ไม่มีไอดีนี้")
 io.open("/storage/emulated/0/Android/data/LOGIN.lua","w")
 LOGOUT()
+
 end
