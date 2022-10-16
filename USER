@@ -1,6 +1,5 @@
 KILL=1
  
-
 if User=="M" then
 if os.date("%Y%m%d") > "20221025" then
 gg.alert("หมดอายุแล้วจ้า")
