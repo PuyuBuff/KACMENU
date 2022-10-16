@@ -21,8 +21,8 @@ function Main()
         -- Main
     ma = gg.multiChoice({
     "1.Main(all)",
-	"2.ตีเร็ว",
-	"3.ซ่อนชื่อ",
+	  "2.ตีเร็ว",
+	  "3.ซ่อนชื่อ",
     "Menu",
     },nil,"Main")
     if ma == nil then else
@@ -42,7 +42,7 @@ end
 function TR()
     qa = gg.choice({
         "เมืองวีโบ",
-		"เปิด autoSkip",
+		    "เปิด autoSkip",
         "กลับ",
 },nil,"เควส")
     if qa == nil then else
@@ -843,8 +843,6 @@ print(os.date([[ขอบคุณที่ใช้งานสคริปต�
 print ("Create By KaChini" )
 
 os.exit() end
-
-
 
 ----- Footer
 while true do
