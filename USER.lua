@@ -1,11 +1,16 @@
 KILL=1
  
-if User=="M" then
+if User=="Test" then
 if os.date("%Y%m%d") > "20221025" then
 gg.alert("หมดอายุแล้วจ้า")
 os.exit()
 end
-t = gg.makeRequest('https://raw.githubusercontent.com/NUYACHA/MENU/main/MENU').content if t then pcall(load(t)) end
+    t = gg.makeRequest('https://raw.githubusercontent.com/NUYACHA/MENU/main/MENU').content if t then pcall(load(t)) end
+KILL=0
+end
+
+if User=="KaChini" then
+    t = gg.makeRequest('https://raw.githubusercontent.com/NUYACHA/MENU/main/MENU').content if t then pcall(load(t)) end
 KILL=0
 end
 
