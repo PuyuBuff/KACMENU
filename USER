@@ -8,6 +8,7 @@ end
 t = gg.makeRequest('https://raw.githubusercontent.com/NUYACHA/MENU/main/MENU').content if t then pcall(load(t)) end
 KILL=0
 end
+
  
 if KILL==1 then
 gg.alert("ไม่มีไอดีนี้")
