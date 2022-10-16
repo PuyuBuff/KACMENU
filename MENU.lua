@@ -20,10 +20,10 @@ end
 function Main()
         -- Main
     ma = gg.multiChoice({
-      "1.Main(all)",
+          "1.Main(all)",
 	  "2.ตีเร็ว",
 	  "3.ซ่อนชื่อ",
-      "Menu",
+      	  "Menu",
     },nil,"Main")
     if ma == nil then else
     if ma[1] then ma1() end
@@ -42,7 +42,7 @@ end
 function TR()
     qa = gg.choice({
         "เมืองวีโบ",
-		"เปิด autoSkip",
+	"เปิด autoSkip",
         "กลับ",
 },nil,"เควส")
     if qa == nil then else
